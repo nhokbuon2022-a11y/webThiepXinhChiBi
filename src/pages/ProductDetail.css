@@ -1,0 +1,316 @@
+.detail{
+
+padding:80px 0;
+
+background:#fffafc;
+
+min-height:100vh;
+
+}
+
+.detail-container{
+
+max-width:1200px;
+
+margin:auto;
+
+display:grid;
+
+grid-template-columns:1fr 1fr;
+
+gap:60px;
+
+align-items:center;
+
+padding:0 20px;
+
+}
+
+.detail-image img{
+
+width:100%;
+
+border-radius:20px;
+
+box-shadow:0 15px 40px rgba(0,0,0,.12);
+
+}
+
+.main-image {
+  width: 100%;
+  height: 480px;
+  object-fit: contain;
+  object-position: center;
+  display: block;
+  border-radius: 20px;
+  background: #f7f7f7;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.12);
+}
+
+.product-category-pill{
+
+display:inline-block;
+
+padding:8px 18px;
+
+background:#ffe6ec;
+
+color:#d96c89;
+
+border-radius:30px;
+
+font-weight:600;
+
+margin-bottom:20px;
+
+}
+
+.detail-content h1{
+
+font-size:42px;
+
+margin-bottom:20px;
+
+}
+
+.stars{
+
+display:flex;
+
+align-items:center;
+
+gap:8px;
+
+color:#ffc107;
+
+margin-bottom:20px;
+
+}
+
+.stars span{
+
+color:#777;
+
+margin-left:10px;
+
+}
+
+.detail-content h2{
+
+color:#E8AEB7;
+
+font-size:36px;
+
+margin-bottom:20px;
+
+}
+
+.detail-content p{
+
+font-size:18px;
+
+line-height:1.8;
+
+color:#555;
+
+margin-bottom:25px;
+
+}
+
+.detail-content ul{
+
+margin-bottom:35px;
+
+padding-left:20px;
+
+}
+
+.detail-content li{
+
+margin-bottom:10px;
+
+font-size:17px;
+
+}
+
+.btn-group{
+
+display:flex;
+
+gap:20px;
+
+}
+
+.buy{
+
+padding:15px 40px;
+
+border:none;
+
+border-radius:50px;
+
+background:#E8AEB7;
+
+color:white;
+
+font-size:17px;
+
+cursor:pointer;
+
+display:flex;
+
+align-items:center;
+
+gap:10px;
+
+transition:.3s;
+
+}
+
+.buy:hover{
+
+background:#d88995;
+
+}
+
+.love{
+
+width:60px;
+
+height:60px;
+
+border:none;
+
+border-radius:50%;
+
+background:#ffe6ec;
+
+color:#d96c89;
+
+font-size:22px;
+
+cursor:pointer;
+
+transition:.3s;
+
+}
+
+.love:hover{
+
+background:#E8AEB7;
+
+color:white;
+
+}
+
+@media(max-width:900px){
+
+.detail-container{
+
+grid-template-columns:1fr;
+
+}
+
+.detail-content h1{
+
+font-size:32px;
+
+}
+
+}
+
+.thumbs{
+  display:flex;
+  gap:15px;
+  margin-top:20px;
+  flex-wrap:wrap;
+}
+
+.thumbs .thumb-image{
+  width:90px;
+  height:90px;
+  object-fit:contain;
+  object-position:center;
+  border-radius:12px;
+  cursor:pointer;
+  border:2px solid transparent;
+  background:#f7f7f7;
+  transition:.3s;
+  flex-shrink:0;
+}
+
+.thumbs .thumb-image:hover{
+  border-color:#E8AEB7;
+  transform:scale(1.05);
+}
+
+.thumb-more {
+  width: 90px;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+  background: #f7f7f7;
+  color: #d96c89;
+  font-weight: 700;
+  font-size: 18px;
+  border: 2px dashed #E8AEB7;
+}
+
+.related-products {
+  max-width: 1200px;
+  margin: 40px auto 0;
+  padding: 0 20px 60px;
+}
+
+.related-products h3 {
+  font-size: 28px;
+  margin-bottom: 24px;
+  color: #333;
+}
+
+.related-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.related-card {
+  background: #fff;
+  border-radius: 16px;
+  padding: 16px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  text-align: center;
+}
+
+.related-card img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 12px;
+}
+
+.related-card h4 {
+  font-size: 18px;
+  margin: 6px 0;
+  color: #333;
+}
+
+.related-card p {
+  color: #E8AEB7;
+  font-weight: 600;
+}
+
+@media (max-width: 900px) {
+  .related-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .related-grid {
+    grid-template-columns: 1fr;
+  }
+}

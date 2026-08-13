@@ -1,0 +1,110 @@
+.hero{
+    height:90vh;
+
+    /* background-image:
+    linear-gradient(rgba(0,0,0,.45),rgba(0,0,0,.45)),
+    url("https://images.unsplash.com/photo-1519225421980-715cb0215aed?w=1600"); */
+
+        background-image:
+        linear-gradient(rgba(0,0,0,.45), rgba(0,0,0,.45)),
+        url("/images/hero/hero.png");
+
+
+    background-size:cover;
+    background-position:center;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.hero-overlay{
+
+    text-align:center;
+
+    color:white;
+
+    max-width:900px;
+
+    padding:20px;
+}
+
+.hero-subtitle{
+
+    letter-spacing:8px;
+
+    font-size:18px;
+
+    margin-bottom:20px;
+}
+
+.hero h1{
+
+    font-size:68px;
+
+    line-height:1.2;
+
+    margin-bottom:25px;
+}
+
+.hero-desc{
+
+    font-size:22px;
+
+    margin-bottom:40px;
+}
+
+.hero-buttons{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:20px;
+}
+
+.btn-primary{
+
+    background:#E8AEB7;
+
+    color:white;
+
+    border:none;
+
+    padding:15px 35px;
+
+    border-radius:40px;
+
+    cursor:pointer;
+
+    transition:.3s;
+}
+
+.btn-primary:hover{
+
+    background:#C97C8A;
+}
+
+.btn-outline{
+
+    border:2px solid white;
+
+    background:transparent;
+
+    color:white;
+
+    padding:15px 35px;
+
+    border-radius:40px;
+
+    cursor:pointer;
+
+    transition:.3s;
+}
+
+.btn-outline:hover{
+
+    background:white;
+
+    color:#333;
+}

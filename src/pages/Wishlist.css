@@ -1,0 +1,11 @@
+.wishlist {
+  padding: 100px 20px;
+  min-height: 100vh;
+  background: #fffafc;
+}
+
+.wishlist h2 {
+  text-align: center;
+  margin-bottom: 40px;
+  color: #d96c89;
+}

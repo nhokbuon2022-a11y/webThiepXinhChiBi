@@ -1,0 +1,28 @@
+:root{
+  --primary:#E8AEB7;
+  --primary-hover:#C97C8A;
+
+  --bg:#FFF8F5;
+  --card:#FFFFFF;
+
+  --text:#333333;
+  --text-light:#666666;
+
+  --border:#F3D8DE;
+}
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  background:var(--bg);
+  color:var(--text);
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+#root{
+  width:100%;
+}
